@@ -12,8 +12,7 @@
     "test": "vitest --environment jsdom --root src/",
     "test:coverage": "vitest --environment jsdom --root src/ --coverage",
     "test:coverage++": "vitest --environment jsdom --root src/ --coverage --coverage.lines=80",
-    "test:ui": "vitest --environment jsdom --root src/ --coverage.enabled=true --ui",
-    "prepare": "husky install"
+    "test:ui": "vitest --environment jsdom --root src/ --coverage.enabled=true --ui"
   },
   "dependencies": {
     "axios": "^1.6.8",
