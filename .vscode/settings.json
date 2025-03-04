@@ -15,5 +15,8 @@
   "vue.codeActions.enabled": false,
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
   }
 }
