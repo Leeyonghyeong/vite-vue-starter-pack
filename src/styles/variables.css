@@ -1,0 +1,23 @@
+@layer base {
+  :root {
+    /* color */
+    --primary-900: #C31D23;
+    --primary-800: #bf5054;
+    --primary-700: #d05a5e;
+    --primary-600: #c8666a;
+    --primary-500: #ca7c7e;
+    --primary-400: #ea9598;
+    --primary-300: #ebaaac;
+    --primary-200: #ebb5b7;
+    --primary-100: #f0cfd0;
+    --secondary-900: #0387e1;
+    --secondary-800: #1692e4;
+    --secondary-700: #349bdf;
+    --secondary-600: #3892ce;
+    --secondary-500: #4ca7e4;
+    --secondary-400: #67b7ec;
+    --secondary-300: #80bfe9;
+    --secondary-200: #89c2e8;
+    --secondary-100: #b8d5e8;
+  }
+}
