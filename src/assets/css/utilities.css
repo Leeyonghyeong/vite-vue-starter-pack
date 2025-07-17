@@ -1,0 +1,17 @@
+@layer utilities {
+  .btn {
+    @apply px-3 py-2 w-full font-gmarket-medium select-none shadow-2xl active:shadow-inner transform active:translate-y-[2px] transition duration-150;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-white hover:text-primary hover:outline hover:outline-primary
+  }
+
+  .btn-secondary {
+    @apply bg-red-500 text-white hover:bg-white hover:text-red-500 hover:outline hover:outline-red-500
+  }
+
+  .input {
+    @apply border-gray-200 border w-full rounded-lg h-10 p-2 focus:border-gray-700 text-sm;
+  }
+}
